@@ -3,7 +3,7 @@
 Hellow, this is my first script for auto. scanning ports~
 
 
-Install
+Install:
 ```
 
 git clone https://github.com/aliasdef/Scripts/tree/main/ScanNetwork.sh
@@ -13,14 +13,14 @@ chmod +x ScanNetwork.sh
 
 
 
-Settings
+Settings:
 
 Insert your BOT TOKEN and CHAT ID at the beginning of the script.
 
 
 
 
-Start
+Start:
 ```
 ./ScanNetwork.sh
 ```
