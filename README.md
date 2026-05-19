@@ -6,7 +6,7 @@ Hellow, this is my first script for auto. scanning ports~
 Install:
 ```
 
-git clone https://github.com/aliasdef/Scripts/tree/main/ScanNetwork.sh
+git clone https://github.com/aliasdef/Scripts.git
 
 chmod +x ScanNetwork.sh
 ```
