@@ -1,7 +1,7 @@
 #!/bin/bash
 # Настройка путей
-DIR="/home/hateme/Learning"
-BACKUP_DIR="/home/hateme/bk"
+DIR="/path/to/mainDIR"
+BACKUP_DIR="/path/to/backupDIR"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 ARCHIVE_NAME="learning_backup_$TIMESTAMP.tar.gz"
 
