@@ -24,7 +24,6 @@ echo -e "${PURPLE}  XXXXX  XXXXX  XXXXX "
 echo "   X      X      X    "
 echo -e "    ${PINK}BYE BYE, TARGET!${NC}"
 echo ""
-echo -e "${PINK}      STAY JINXED...${NC}"
 echo "" 
 
 sleep 1
