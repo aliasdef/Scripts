@@ -1,6 +1,6 @@
 #!/bin/bash
 # Настройка путей
-DIR="/var/log/*"
+DIR="/var/log/auth.log"
 BACKUP_DIR="~/home/hateme/backuplog"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 ARCHIVE_NAME="log_backup_$TIMESTAMP.tar.gz"
