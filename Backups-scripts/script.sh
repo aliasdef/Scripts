@@ -1,9 +1,9 @@
 #!/bin/bash
 # Настройка путей
-DIR="/path/to/mainDIR"
-BACKUP_DIR="/path/to/backupDIR"
+DIR="/var/log/*"
+BACKUP_DIR="~/home/hateme/backuplog"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
-ARCHIVE_NAME="learning_backup_$TIMESTAMP.tar.gz"
+ARCHIVE_NAME="log_backup_$TIMESTAMP.tar.gz"
 
 mkdir -p "$BACKUP_DIR"
 
