@@ -1,4 +1,4 @@
-# HATEME NET-HUNTER v3.0
+# NET-HUNTER v3.0
 
 `NET-HUNTER` is a lightweight, interactive Bash script designed to automate network reconnaissance using `nmap` and deliver scan reports instantly to your Telegram chat. Built specifically for CTFs, TryHackMe/HackTheBox grinding, and fast-paced pentest engagements.
 
