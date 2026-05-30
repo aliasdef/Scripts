@@ -10,9 +10,6 @@ Pure Bash, clean `case`-driven logic.
 * **Auto-Logging:** Automatically saves every scan output into structured, timestamped `.txt` files.
 * **Telegram Integration:** Instantly ships the final `.txt` report directly to your private TG bot/channel via `curl` right after the scan finishes.
 * **Best Run as Root:** Best executed under root privileges:
-```bash
-sudo ./net-hunter.sh
-```
 
 ## Prerequisites
 
@@ -37,12 +34,12 @@ CHAT_ID="YOUR_CHAT_ID_HERE"
 
 3. Make it executable:
 ```bash
-chmod +x net_hunter.sh
+chmod +x net-hunter.sh
 ```
 
 4. Fire it up with `sudo`:
 ```bash
-sudo ./net_hunter.sh
+sudo ./net-hunter.sh
 ```
 
 ## Scan Menu Breakdowns
