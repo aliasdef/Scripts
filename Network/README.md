@@ -25,8 +25,8 @@ Make sure you have these ready before running the script:
 
 1. Clone the repo:
 ```bash
-git clone https://github.com
-cd net-hunter
+git clone https://github.com/aliasdef/Scripts/blob/main/Network/
+cd Network
 ```
 
 2. Open the script and paste your Telegram bot credentials:
