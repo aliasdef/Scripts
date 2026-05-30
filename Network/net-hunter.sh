@@ -110,16 +110,10 @@ esac
 if [ $? -eq 0 ]; then
    echo -e ${RED}"[+] Scan finish.."
 fi
-
+echo -e "========================================================================"${NC}
 # Отправка файла:
    curl -F "chat_id=$CHAT_ID" \
         -F "document=@$OUTPUT_FILE" \
-        -F "caption=Scan result for $target" \
+        -F "caption=Scan result for $awe" \
         "https://api.telegram.org/bot$BOT_TOKEN/sendDocument"
-
-if
-echo -e "${RED}[+] Done${NC}"
-else
-echo -e "${RED}[~] Scan Failed${NC}"
-fi
 
