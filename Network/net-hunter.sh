@@ -117,8 +117,8 @@ fi
         -F "caption=Scan result for $target" \
         "https://api.telegram.org/bot$BOT_TOKEN/sendDocument"
 
-
-echo -e "${RED}[+] Done1${NC}"
+if
+echo -e "${RED}[+] Done${NC}"
 else
 echo -e "${RED}[~] Scan Failed${NC}"
 fi
